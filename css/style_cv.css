@@ -1,0 +1,100 @@
+body
+{
+    background-color: #ffb8b8;
+}
+
+.d1
+{   
+    border-radius: 8px;
+    border: 4px solid blue;
+    height: 1200px;
+    width: 40%;
+    float: left;
+    margin-left: 550px;
+    font-size: 15px;
+}
+
+.d2
+{
+    border-radius: 4px;
+    border: 3px solid red;
+    height: 250px;
+    width: 94%;
+    float: left;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.d3
+{
+    float: left;
+    margin-left: 10px;
+    font-family: verdana;
+    font-size: 10px;
+}
+
+p
+{
+    padding: 0,5px;
+}
+
+.d5
+{
+    float: right;
+}
+
+.d4
+{
+    border-radius: 4px;
+    border: 3px solid red;
+    height: 250px;
+    width: 94%;
+    float: left;
+    margin-left: 10px;
+    font-size: 4px;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.d6
+{
+    font-weight: bold;
+    font-size: 2px;
+    padding: 3px;
+}
+
+.d7
+{
+    float: right;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.d8
+{
+    border-radius: 4px;
+    border: 3px solid red;
+    height: 250px;
+    width: 94%;
+    float: left;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.d9
+{
+    font-weight: bold;
+    font-size: 2px;
+    padding: 3px;
+}
+
+.d10
+{
+    float: right;
+    font-size: 15px;
+    padding: 3px;
+}

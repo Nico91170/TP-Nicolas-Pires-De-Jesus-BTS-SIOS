@@ -1,0 +1,33 @@
+.d1
+{
+	background-color: #B33771;
+	border-radius: 8px;
+}
+
+.d2
+{
+	background-color: grey;
+	border: 4px solid #303952;
+	border-radius: 8px;
+	padding-left: 1.5%;
+	padding-right: 1%;
+	width: 90%;
+	text-align: center;
+}
+
+body
+{
+	background-color: #778beb;
+}
+
+p,h1,h2
+{
+	color: white;
+	font-family: verdana;  .
+}
+
+p
+{
+	text-align: justify;
+	font-size: 1.5em;
+}
