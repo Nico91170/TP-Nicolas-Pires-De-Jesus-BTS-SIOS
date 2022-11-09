@@ -33,8 +33,6 @@ body
 	border: 2px solid black;
 	border-radius: 6px;
 	height: 50px;
-	
-
 	width: 300px;
 	margin-left: 50px;
 	float: left;
@@ -91,4 +89,5 @@ body
 	margin-top: 75px;
 	float: left;
 	text-align: center;
+	bottom-left: 50%;
 }
