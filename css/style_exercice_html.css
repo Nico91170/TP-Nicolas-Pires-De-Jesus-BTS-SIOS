@@ -1,0 +1,16 @@
+html
+{
+    background-image: url(../bg.jpg);
+}
+
+.tp_formulaire
+{
+	background-color: #ff6b81;
+	border: 2px solid black;
+	border-radius: 6px;
+	height: 50px;
+	width: 300px;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+}
