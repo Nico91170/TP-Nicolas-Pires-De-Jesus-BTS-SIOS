@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style-menu-deroulant.css">
 </head>
 <body>
-
-	<iframe src="liens.html" width="25%" height="800px" name="f1"></iframe>
-	<iframe src="page2.html" width="60%" height="800px" name="f2"></iframe>
-
+    <nav>
+        <label for="menu-mobile" class="menu-mobile">Menu</label>
+        <input type="checkbox" id="menu-mobile" role="button">
+        <ul>
+            <li class="menu-html"><a href="#">HTML</a>
+                <ul class="submenu">
+                    <li><a href="cours.html" target="_blank">Cours HTML</a></li>
+                    <li><a href="#">Eléments HTML</a></li>
+                    <li><a href="#">Attributs HTML</a></li>
+                    <li><a href="exercice_html.html" target="_blank">Exercices</a></li>
+                </ul>
+            </li>
+            <li class="menu-css"><a href="#">CSS</a>
+                <ul class="submenu">
+                    <li><a href="#">Cours CSS</a></li>
+                    <li><a href="#">Propriétés CSS</a></li>
+                    <li><a href="#">Sélecteurs CSS</a></li>
+                    <li><a href="exercice.html" target="_blank">Exercices</a></li>
+                </ul>
+            </li>
+            <li class="menu-js"><a href="#">JavaScript</a>
+                <ul class="submenu">
+                    <li><a href="#">Cours JavaScript</a></li>
+                    <li><a href="#">Fonctions JavaScript</a></li>
+                    <li><a href="#">Le DOM</a></li>
+                    <li><a href="#">Exercices</a></li>
+                </ul>
+            </li>
+            <li class="menu-bdd"><a href="#">Base de donnée</a>
+                <ul class="submenu">
+                    <li><a href="#">Cours Base de donnée</a></li>
+                    <li><a href="#">#</a></li>
+                    <li><a href="#">#</a></li>
+                    <li><a href="#">Exercices</a></li>
+                </ul>
+            </li>
+            <li class="menu-php"><a href="#">PHP</a>
+                <ul class="submenu">
+                    <li><a href="#">Cours PHP</a></li>
+                    <li><a href="#">#</a></li>
+                    <li><a href="#">#</a></li>
+                    <li><a href="#">Exercices</a></li>
+                </ul>
+            </li>
+            <li class="menu-missions"><a href="#">Missions</a>
+                <ul class="submenu">
+                    <li><a href="cv.html" target="_blank">Exercices</a></li>
+                </ul>
+            </li>
+            <li class="menu-contact"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
