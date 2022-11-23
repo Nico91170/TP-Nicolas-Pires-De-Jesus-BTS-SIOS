@@ -1,0 +1,21 @@
+body
+{
+    background-color: red;
+}
+
+button
+{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 26px;
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+button:hover
+{
+    background-color: purple;
+    color: black;
+}
