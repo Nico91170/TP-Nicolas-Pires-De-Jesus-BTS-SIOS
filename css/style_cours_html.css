@@ -1,11 +1,12 @@
 html
 {
-    background-image: url(../bg.jpg);
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
+	background-image: url(../bghtml.webp);
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
 
 

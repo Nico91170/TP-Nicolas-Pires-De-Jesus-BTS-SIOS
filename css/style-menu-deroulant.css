@@ -3,17 +3,14 @@ body
     font-family: Verdana, Calibri, sans-serif;
     margin: 0px;
     padding: 0px;
+    background-image: url(../kakashi.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
-html
-{
-    background-image: url(../bg.jpg);
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
+
 
 /*On utilise ">" pour ne cibler que la liste ul qui
 est un enfant direct de nav*/
@@ -228,3 +225,4 @@ nav > ul > li:hover a
 {
     background-color: RGB(11,232, 129);
 }
+
