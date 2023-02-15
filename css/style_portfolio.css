@@ -1,0 +1,199 @@
+body
+{
+    font-family: Verdana, Calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../ace.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header
+{
+    text-align: center;
+    margin: 1%;
+}
+
+div.blockcenter
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+h1
+{
+    text-decoration: underline;
+}
+
+.block2{
+    border: 4px solid rgb(128, 128, 128);
+    box-shadow: 6px 6px 6px 6px rgb(128, 128, 128);
+    width: 20%;
+    text-align: center;
+    margin: 2%;
+    top: 13%;
+    height: 300px;
+    position: fixed;
+}
+
+div.block1
+{
+    border: 5px solid rgb(255, 137, 19);
+    border-radius: 8px;
+    width: 90%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px red;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+button
+    {
+        display: inline-block;
+        background-color: #ff9f43;
+        border-radius: 10px;
+        border: 5px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        width: 180px;
+        transition: all 1s;
+        cursor: pointer;
+        margin: 5px;
+        border: 4px solid rgb(0, 0, 0);
+        box-shadow: 3px 3px 4px orangered;
+        border-radius:6px;
+        margin-left: 10px;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+}
+    button span
+    {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    button span:after
+    {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        transition: 0.5s;
+    }
+
+    button:hover
+    {
+        background-color: #d35400;
+    }
+
+    button:hover span
+    {
+        padding-right: 25px;
+    }
+    button:hover span:after
+    {
+        opacity: 1;
+        right: 0;
+    }
+    /*on définit la taille de la div du menu ainsi que la taille de parties du menu*/
+    div#menu {width: 100px; }
+    div#menu ul
+    {
+        padding: 0;
+        width: 100px;
+        margin: 0px;
+        z-index: 10;
+    }
+    div#menu ul li
+    {
+        position: relative;
+        list-style: none;  /*on enleve les icones de listes*/
+        border-bottom: 1 px solid; /* ajout d'une bordure*/
+    }
+    div#menu ul
+    {
+        padding: 0;
+        width: 200px;
+        margin: 0px;
+    }
+    div#menu ul li
+    {
+        position: relative;
+        list-style: none;  /*on enleve les icones de listes*/
+    }
+    div#menu ul ul
+    {
+        position: absolute;
+        top: 0;
+        left: 100px; /* 100px correspond au décalage a droite*/
+    }
+    div#menu li a
+    {
+        text-decoration: none; /* plus de soulignement pour les liens*/
+    }
+    /*Puis on cache tout les sous menu avec la propriété display: none*/
+    div#menu ul ul
+    {
+        position: absolute;
+        top: 0;
+        left: 210px;
+        display: none;
+    }
+    div#menu ul.niveau1 li.sousmenu:hover ul.niveau2,
+    div#menu ul.niveau2 li.sousmenu:hover ul.niveau3 {display:block;}
+    div#menu a {color:000000;}
+    /*on rajoute une bordure a gauche et des paddings*/
+    /*la bordure de chaque hauteur à une couleur de survol*/
+    div#menu li a:hover {border-left-color: red;}
+    div#menu ul ul li a:hover {border-left-color: #00FF00;}
+    div#menu ul ul ul li a:hover {border-left-color: #0000FF;}
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+iframe
+{
+    margin: 2%;
+    top: -4%;
+    left: 20px;
+    border: 2px solid black;
+    box-shadow: 8px 8px 8px 8px black;
+    border-radius: 6px;
+}
+
+.pp
+{
+    border: 2px solid orangered;
+    box-shadow: 5px 5px 5px orangered;
+    margin-left: 400px;
+    margin-bottom: 200px;
+}
+
+footer
+{
+    text-align: center;
+    margin: 1%;
+    margin-top: 50px;
+}
