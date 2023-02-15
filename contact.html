@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href"assets/css/normalize.css">
+    <link rel="stylesheet" href"assets/css/style_portfolio.css">
+    <script src="https://kit.fontawesome.com/3c49c887f2.js" crossorigin="anonymous"></script>
+    <style>
+        *{box-sizing: border-box;
+            font-family: 'Press Start 2P', cursive;
+            word-break: break-all;
+            flex-wrap: wrap;
+        }
+
+        body
+        {
+            background-color: rgb(174, 181, 255);
+        }
+
+        .container
+        {
+            display: grid;
+            margin: auto;
+            width: 85%;
+            grid-template-areas:
+            "header header header"
+            "main main main"
+            ;
+            grid-template-rows: minmax(70vh, auto) minmax(2vh, auto);
+        }
+        header
+            {
+                position: relative;
+                grid-area: header;
+                margin-bottom: 2rem;
+                border: 4px solid rgb(255, 0, 0);
+            }
+        .nav-top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    /*position: absolute;*/
+    top: 0;
+    /*margin: .5rem;*/
+}
+
+        .nav-top a, .nav-bottom
+            {
+                color: white;
+                text-shadow: 1px 1px 2px black;
+                text-decoration: none;
+            }
+
+        .nav-top a:not(a:lest-of-type)::after, .nav-bottom a:not(a:last-of-type)::after
+        {
+            content: "|";
+            margin: 1rem;
+        }
+
+        .nav-top a:hover, .nav-bottom a:hover
+        {
+            color: rgb(119, 0, 255);
+            text-decoration: underline;
+        }
+
+        .nav-bottom
+        {
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            justify-content: center;
+            width: 100%;
+            margin: .5rem;
+            bottom: 0;
+        }
+
+        .nav-bottom a
+        {
+            margin-right: 80px;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-center 
+        {
+            font-size: 20px;
+            margin-bottom: 50px;
+            padding-top: .8rem;
+            color: white;
+        }
+
+        .nav-right
+        {
+            padding: .3rem;
+            margin: .3rem;
+        }
+
+        #logo
+        {
+            height: 100px;
+            width: 100px;
+            border-radius: 20px;
+            margin: .5rem;
+            padding: .5rem;
+        }
+
+        .bg-header
+    {
+        background-image: url('assets/medias/images/bg.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .center-box{
+    display: grid;
+    place-content: center;
+    border: 3px solid green;
+    height: 70vh;
+}
+
+.bix-box{
+    height: 70vh;
+}
+
+        h2{text-align: center;}
+        form
+        {
+            width: 80%;
+            margin: auto;
+            padding: 1rem;
+            border: 1px solid black;
+            box-shadow: 2px 2px 10px rgb(6, 75, 172);
+        }
+        input:not([type="checkbox"], [type="radio"]), textarea 
+        {width: 100%; margin-bottom: 2rem;}
+
+        h1{
+            padding: .1rem 1rem;
+            color: white;
+            text-shadow: 2px 2px 2px black;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .formulaire
+        {
+            position: center;
+        }
+
+        input
+        {
+            background-color: rgb(119, 0, 255);
+            border-radius: 10px;
+            height: 2rem;
+        }
+
+        textarea
+        {
+            background-color: white;
+            border-radius: 10px;
+            border: 0;
+        }
+
+        fieldset, form
+        {
+            border-radius: 20px;
+        }
+
+        div:last-child
+        {
+            margin-bottom: 2rem;
+        }
+
+
+    @media screen and (max-width:576px)
+        {
+            main{
+                grid-template-columns: 100%;
+            }
+        }
+
+    </style>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <header class="bg-header">
+            <nav class="nav-top">
+                <div class="nav-left">
+                    <a href="index.html"><img id="logo" src="luffy.gif" alt="logo"></a>
+                </div>
+                <div class="nav-center">
+                    <a href="index.html"><i class="fas fa-home"></i> Acceuil |</a>  
+                    <a href="nous.html"><i class="fas fa-users"></i> Notre équipe |</a>  
+                    <a href="glossaire.html"><i class="fas fa-spell-check"></i> Glossaire |</a>  
+                    <a href="contact.html"><i class="fas fa-id-card"></i> Contact</a>  
+                </div>
+                <div class="nav-rigth">
+                    <a href="">CONNEXION</a>
+                </div>
+            </nav>
+            <div class="center-box big-box">
+                <h1>Contact</h1>
+            </div>
+        </header>
+    <main>
+        <h2>Formulaire à complèter</h2>
+        <div class="formulaire">
+            <form action="" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Etat civil</legend>
+                        <label for="nom">Nom</label>
+                        <input id="nom" type="text" required />
+                        <label for="prenom">Prénom</label>
+                        <input id="prenom" type="text" />
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="mon@email.com"required />
+                        <label for="adresse">Adresse</label>
+                        <textarea name="adresse" id="adresse" cols="30" rows="10"></textarea>
+                        <label for="ville">Ville</label>
+                        <input id="ville" type="text" list="liste-villes" />
+                        <datalist id="liste-villes">
+                            <option value="Paris">Paris</option>
+                            <option value="Marseille">Marseille</option>
+                            <option value="Lyon">Lyon</option>
+                        </datalist>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Age</legend>
+                        <label for="age">Ton age</label>
+                        <input id="age" name="age" type="range">
+                    <fieldset>
+                    <button>Enregistrer</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
