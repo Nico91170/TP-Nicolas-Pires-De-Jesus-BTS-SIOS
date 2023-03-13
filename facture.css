@@ -1,0 +1,177 @@
+body {
+    border-top: 20px solid rgb(255, 167, 167);
+    border-bottom: 10px solid rgb(255, 167, 167);
+    border-radius: 8px;
+}
+
+
+
+header.bloc1{
+    background-color: rgb(255, 174, 104);
+    border: 0px solid rgb(255, 63, 63);
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    display: flex;
+}
+
+h3
+{
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+img{
+    width: 220px;
+    height: 150px; 
+    position: relative;
+    right: -0.1rem;
+    top: 1%;
+
+}
+
+article.bloc2{
+    border: 0px solid rgb(255, 236, 33);
+    width: 80%;
+    border-radius: 9px;
+    display: flex;
+}
+
+
+.i1
+{
+    border: 0px solid black;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.i2
+{
+    float: right;
+    margin-right: 50px;
+    border: 0px;
+}
+
+div.d2{
+    border: 0px solid rgb(146, 0, 0);
+    width: 80%;
+    border-radius: 9px;
+    padding: 0% 20%;
+    left: 25rem;
+    text-align: start;
+}
+
+div.d3{
+    background-color: rgb(255, 152, 92);
+    border: 0px solid rgb(235, 255, 108);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+
+}
+
+div.d4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid rgb(71, 25, 208);
+    width: 100%;
+    text-align: start;
+
+}
+
+div.d5{
+    border: 0px solid rgb(225, 14, 14);
+    margin: 1%;
+    width: 50%;
+
+}
+
+.d5
+{
+    float: right;
+    padding: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+div.d6{
+    border: 0px solid rgb(141, 225, 14);
+    margin: 1%;
+    width: 50%;
+
+}
+
+div.d7
+{
+    float: right;
+    padding: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 97%;
+    height: 100px;
+}
+
+th{
+    background-color: rgb(255, 18, 18);
+    color: black;
+}
+
+
+
+.totalLigne
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.desc
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.qte
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.prix
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+td
+{
+    border: 1px solid black;
+    height: 40px;
+}
+
+
+button
+{
+    margin-top: 255px;
+}
+
+
+#result{
+
+    color: black;
+    text-align: center;
+}
+
+.buttonjs
+{
+    margin-top: 250px;
+}
